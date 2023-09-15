@@ -26,3 +26,18 @@
 .column-five {
     order: 5;
 }
+
+.responsive-iframe {
+	max-width: 100%;
+	padding-top: 33%;
+	position: relative;
+	width: 100%;
+}
+
+.responsive-iframe iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
